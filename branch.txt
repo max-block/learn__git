@@ -1,0 +1,12 @@
+--> List all branches
+git branch --list
+
+--> Create new branch from 'develop'
+
+git checkout -b feature-add-route1 develop
+
+--> Delete a branch
+git push -d origin <branch_name>
+git checkout develop
+git pull
+git branch -d <branch_name>

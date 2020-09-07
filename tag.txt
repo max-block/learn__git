@@ -1,0 +1,21 @@
+--> Create tag
+git tag -a v1.12 -m "version 1.12"
+git push origin v1.12
+
+--> Delete tag
+git tag -d v1.0
+git push origin :refs/tags/v1.0
+
+--> Rename tag
+git tag new old
+git tag -d old
+git push origin :refs/tags/old
+git push --tags
++ other co-workers should do this:
+git pull --prune --tags
+
+
+--> Download tagged version
+git clone # copy the whole repo
+git tag -l # view list of tags
+git checkout tags/v0.1 # checkout to a specific tag

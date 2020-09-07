@@ -1,0 +1,3 @@
+--> squash commits
+git rebase -i 23f21642
+git push origin +master
