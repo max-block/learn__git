@@ -1,3 +1,6 @@
+--> Revert initial commit
+git update-ref -d HEAD
+
 --> Remove directory from git but NOT local
 git rm -r --cached myFolder
 
