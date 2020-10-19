@@ -1,0 +1,17 @@
+--> Squash last 3 commits
+git rebase -i HEAD~3
+
+1) screen
+pick 11111 The oldest commit
+s 22222 Next commit
+s 33333 Next commit
+
+
+/// So, pick the oldest and squash the next
+
+2) screen
+pick commit message, just comment another lines
+
+---------------------------------------------
+
+
