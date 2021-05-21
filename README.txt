@@ -1,3 +1,7 @@
+--> Delete last commits
+git reset --hard <last_working_commit_id>
+git push --force
+
 --> Revert initial commit
 git update-ref -d HEAD
 
